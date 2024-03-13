@@ -5,6 +5,7 @@ let student = {
 Object.prototype.getKeys = function() {
 	let arr=[];
 	for(let i in this){
+		if(i==='getKeys')continue;
 		arr.push(i);
 	}
 	return arr;
