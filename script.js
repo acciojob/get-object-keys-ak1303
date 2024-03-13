@@ -7,4 +7,5 @@ Object.prototype.getKeys = function() {
 	for(let i in this){
 		arr.push(i);
 	}
+	return arr;
 }
