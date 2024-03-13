@@ -1,5 +1,5 @@
 //your JS code here. If required.
-obj student = {
+let student = {
 	name:'Abhishek'
 }
 Object.prototype.getKeys = function() {
@@ -7,5 +7,4 @@ Object.prototype.getKeys = function() {
 	for(let i in this){
 		arr.push(i);
 	}
-	return arr;
 }
